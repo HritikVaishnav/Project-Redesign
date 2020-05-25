@@ -1,0 +1,107 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: none;
+}
+.wikiTop{
+    /* height: 100%; */
+    width: 100%;
+    padding-bottom: 5%;
+    overflow: auto;
+    background-image: url(../images/wikiBackground.svg),linear-gradient(180deg, rgb(30, 41, 45), rgb(31, 31, 31));
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.promoImgCursor{
+    color: black;
+    font-size: 1.5em;
+    text-shadow: 1px 0 white, -1px 0 white, 0 1px white, 0 -1px white;
+}
+#content{
+    background-color: rgb(31, 31, 31);
+    background-image:url(../images/background2.svg);
+}
+#content:before,#content:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(31,31,31,0),rgba(102,131,153,.8),rgba(227,193,161,.9), rgba(186,217,252));
+    background: linear-gradient(180deg, rgba(31,31,31,0) 0%, rgba(102,131,153,0.8) 33%, rgba(227,193,161,0.9) 66%, rgba(186,217,252,1) 100%);
+    height: 35%;
+}
+#content:after{
+    background-image: url(../images/forest.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#content > *{
+    z-index: 1;
+}
+.imgcompare{
+    border: solid 10px black;
+}
+.imgcompare,.imgfirst,.imgsecond{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.compare-bar{
+    height: 100%;
+    width: 10px;
+    background-color: rgb(101, 101, 101);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-image: url(../images/bar.svg);
+    background-position: top;
+}
+.imgsecond{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+.imgfirst span,.imgsecond span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(30, 41, 45);
+}
+.imgsecond span{
+    left: 0;
+    right: auto;
+}
+.imgfirst img{
+    width: 100%;
+}
+.imgsecond img{
+    width: auto;
+    height: 100%;
+}
+.glowHr{
+    height: 3px;
+    border-radius: 100%;
+    width: 70%;
+    max-width: 600px;
+    background: rgb(0, 136, 255);
+    box-shadow: 0 5px 15px rgba(0, 142, 255, 0.43);
+}
+
+@media only screen and (min-width: 680px){
+    .wiki-nav{
+        justify-content: flex-end !important;
+    }
+}

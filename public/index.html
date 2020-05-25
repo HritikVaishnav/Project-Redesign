@@ -4,12 +4,312 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Redesign</title>
+    <link rel="shortcut icon" type="image/png" href="/src/images/favicon.png"/>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../src/css/functionX.css">
     <link rel="stylesheet" href="../src/css/projectR.css">
-    <script src="../src/js/customFn.js"></script>
+    <link rel="stylesheet" href="../src/css/hover.css">
+    <script src="../src/js/functionX.js"></script>
 </head>
 <body>
     
+
+    <div class="container-fluid titleBox">
+        <div class="container p-0">
+            <!-- navigation bar -->
+            <div class="navigationBar py-3">
+                <span class="brandLogo">
+                    <img width="50px" src="../src/images/prLogo.png" alt="Logo">
+                </span>
+                <div class="options" id="nav-options">
+                    <a href="#Projects">Projects</a>
+                    <a href="#About">About</a>
+                </div>
+                <button class="btn" id="nav-toggle-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <div class="jumbotron bg-none px-0 pb-0">
+                <div class="pr-text-logo mb-5 maxw-700">
+                    <img class="w-100" src="../src/images/prTextlogo2.svg" alt="logo">
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="maxw-500 w-100 float-left" src="../src/images/PRillustration.svg">
+                    </div>
+                    <div class="col-md-6 f-xlarge d-flex font-weight-bold">
+                        <p class="py-3">The Aim of project is to redesign popular websites and
+                            provide the restyle/redesign through browser extentions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container py-4 px-0 my-4">
+            <h2 class="font-weight-bolder flashHead" id="Projects">Projects :</h2>
+            <div class="row py-4">
+                <div class="col-md-4">
+                    <div class="wiki-card h-100 p-3 bg-darkBlack br-thick">
+                        <a href="./wiki.html" class="text-plain text-white">
+                            <img class="card-img-top" src="../src/images/WikiRedesigned.svg" alt="WikiRedesign">
+                            <div class="card-body">
+                                <h4 class="card-title">Wiki Redesigned</h4>
+                                <p class="card-text">Desktop Only, Avaliable on both Chrome and Firefox</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 d-flex justify-content-center">
+                   <div class="maxw-600">
+                       <h2 class="mb-3">A redesigned interface for wikimedia projects</h2>
+                       <h4>Supported projects :</h4>
+                       <div class="d-flex flex-wrap text-center py-3">
+                           <a class="wiki-sister-logo" target="#" href="https://commons.wikimedia.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/Commons.png" alt="wikicommons">
+                               <div>commons</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://www.mediawiki.org/wiki/MediaWiki">
+                               <img src="../src/images/wiki sister projects/Mediawiki.png" alt="mediawiki">
+                               <div>wikimedia</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://meta.wikimedia.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/metawiki.png" alt="metawiki">
+                               <div>metawiki</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://en.wikibooks.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikibooks.png" alt="wikibooks">
+                               <div>wikibooks</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#"
+                               href="https://www.wikidata.org/wiki/Wikidata:Main_Page">
+                               <img src="../src/images/wiki sister projects/wikidata.png" alt="wikidata">
+                               <div>wikidata</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://en.wikinews.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikinews.png" alt="wikinews">
+                               <div>wikinews</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://en.wikipedia.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikipedia.png" alt="wikipedia">
+                               <div>wikipedia</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://en.wikiquote.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikiquote.png" alt="wikiquote">
+                               <div>wikiquote</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://en.wikisource.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikisource.png" alt="wikisource">
+                               <div>wikisource</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://species.wikimedia.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikispecies.png" alt="wikispecies">
+                               <div>wikispecies</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#"
+                               href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page">
+                               <img src="../src/images/wiki sister projects/wikitionary.png" alt="wikitionary">
+                               <div>wikitionary</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#"
+                               href="https://en.wikiversity.org/wiki/Wikiversity:Main_Page">
+                               <img src="../src/images/wiki sister projects/wikiversity.png" alt="wikiversity">
+                               <div>wikiversity</div>
+                           </a>
+                           <a class="wiki-sister-logo" target="#" href="https://en.wikivoyage.org/wiki/Main_Page">
+                               <img src="../src/images/wiki sister projects/wikivoyage.png" alt="wikivoyage">
+                               <div>wikivoyage</div>
+                           </a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex h-100 align-items-center justify-content-center border border-dark">
+                        <h1 class="maxw-500 p-3">
+                            Help us decide which website we should redesign next 
+                            <i class="ml-2 fas fa-poll"></i>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border border-warning" style="background-color: rgba(255, 235, 59, 0.35); backdrop-filter:blur(2px)">
+                        <!----------------->
+                        <!-- Voting List -->
+                        <ul class="list-group" id="voting-list">
+                            <li class="list-group-item voter">
+                                <a href="https://www.crunchyroll.com" target="#">Crunchyroll.com</a>
+                                <button class="btn">vote</button>
+                            </li>
+                            <li class="list-group-item voter">
+                                <a href="https://myanimelist.net/" target="#">Myanimelist.net</a>
+                                <button class="btn">vote</button>
+                            </li>
+                            <li class="list-group-item voter">
+                                <a href="https://www.amazon.com" target="#">Amazon.com</a>
+                                <button class="btn">vote</button>
+                            </li>
+                            <li class="list-group-item voter">
+                                <a href="https://www.reddit.com" target="#">Reddit.com</a>
+                                <button class="btn">vote</button>
+                            </li>
+                            <li class="list-group-item voter">
+                                <a href="https://www.youtube.com" target="#">youtube.com</a>
+                                <button class="btn">vote</button>
+                            </li>
+                            <li class="list-group-item voter">
+                                <input type="text" name="userOption" id="userOption">
+                                <button class="btn">vote</button>
+                            </li>
+                        </ul>
+                        <!----------------->
+                        <!----------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container py-4 px-0">
+            <h2 class="font-weight-bolder flashHead mb-4" id="About">About :</h2>
+            <div class="p-4" style="background:rgba(0,0,0,0.05); backdrop-filter:blur(15px)">
+                <div class="">
+                    <h4 class="font-weight-bold">What is Project Redesign ?</h4>
+                    <p class="f-larger m-0">
+                        Project Redesign is an initiative to redesign certain websites
+                        for the online community. The Redesignes are provided through
+                        browser extentions. These extentions are mainly for modern browsers
+                        and may not work properly on old browsers, Thus I recommend using
+                        latest version of browsers. The first project under this
+                        initiative is "Wiki-Redesign", which provide redesigned wikipedia.
+                    </p>
+                </div>
+                <hr class="my-4 bg-gray">
+                <div class="">
+                    <h4 class="font-weight-bold">What are the Requirments ?</h4>
+                    <p class="f-larger m-0">
+                        There are no special requirments , you just need the latest verison of
+                        chrome or firefox. The extention should also work on any chromium based
+                        browser like 'Edge-chromium', 'Opera' etc. The extentions are
+                        <b>Desktop Only</b> for now. <br> <br>
+
+                        For example: The extention 'Wiki Redesigned' only works on desktop
+                        website. That means it will work on
+                        <a class="text-plain" target="#" href="https://en.wikipedia.org/wiki/Main_Page">
+                            <b>"www.en.wikipedia.org"</b></a>but will not work on
+                        <a class="text-plain" target="#" href="https://en.m.wikipedia.org/wiki/Main_Page">
+                            <b>"www.en.m.wikipedia.org"</b></a>.
+                    </p>
+                </div>
+                <hr class="my-4 bg-gray">
+                <div class="">
+                    <h4 class="font-weight-bold">Will it take more time to load the web pages of redesigned website ?
+                    </h4>
+                    <p class="f-larger m-0">
+                        Yes, it will, but the aditional time should just be in the range of few miliseconds.
+                        Most of the time it will not be noticible to you, unless you are loading a page with huge amount
+                        of
+                        information/contents.
+                    </p>
+                </div>
+                <hr class="my-4 bg-gray">
+                <div class="">
+                    <h4 class="font-weight-bold">Is it safe ?</h4>
+                    <p class="f-larger m-0">
+                        Yes! it's completely safe. Its just a basic software there is nothing
+                        fishy going on <i class="fa fa-smile"></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class=" mt-5">
+                <h4 class="font-weight-bold">
+                    The Extentions are Avaliable on ?
+                </h4>
+                <div class="px-4 py-2 br-medium br-liteGray mt-3">
+                    <div class="row mx-auto py-1 rounded flex-wrap">
+                        <div class="extentions col p-0">
+                            Chrome
+                            <i class="fab fa-chrome ml-2"></i>
+                        </div>
+                        <div class="extentions col p-0">
+                            FireFox
+                            <i class="fab fa-firefox-browser ml-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Author and Footer -->
+            <div class="row m-0 p-0">
+                <div class="col-md-6 mt-4 p-4 bg-darkBlack text-light" name="author">
+                    <h4>
+                        Author :
+                    </h4>
+                    <div class="d-flex f-larger">
+                        <span class="author bg-img-center mt-2"></span>
+                        <div class="d-flex flex-column ml-3">
+                            <span class="font-weight-bold">
+                                <a href="https://in.linkedin.com/in/hritik-vaishnav" target="#">Hritik
+                                    Vaishnav</a>
+                                <i class="fab fa-linkedin"></i>
+                            </span>
+                            <p>
+                                I started the project for personal use but then decided to expand
+                                and share with the community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 bg-tealGreen mt-4 py-4 f-larger d-flex flexCenter flex-column" name="footer">
+                    <span class="px-3 py-1">
+                        <i class="fa fa-copyright"></i> ProjectRedesign
+                    </span>
+                    <span class="px-3 py-1 termsOfUse">
+                        <i class="fas fa-asterisk"></i> Terms fo Use
+                    </span>
+                </div>
+            </div>
+            
+            <div class="modalContainer" id="termsOfUse">
+                <div class="modalContent maxw-700 bg-light p-4 rounded mx-auto">
+                    <button class="btn float-right f-larger closeBtn modelCloseBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <h2>Terms of Use :</h2>
+                    <hr class="my-4">
+                    <div class="p-2">
+                        <h4>Privacy <i class="ml-2 fas fa-user-secret"></i></h4>
+                        <p class="f-larger">
+                            We care for your privacy and do not practice
+                            any mechanism to steal or compromise your privacy/data 
+                            in any way. Our extentions are offline and do not have any 
+                            internet interactions. Extentions do not require any 
+                            client data.
+                        </p>
+                    </div>
+                    <div class="p-2">
+                        <h4>License <i class="ml-2 fas fa-id-badge"></i></h4>
+                        <p class="f-larger">
+                            The extention fall under the "Freeware license". The extentions
+                            are free of price and do not have any subscription based services.
+                            The extention can be used but cannot be distributed, cloned or edited
+                            in any way. Any person found to be using the resources of the project will 
+                            face legal action. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../src/js/custom.js"></script>
 </body>
 </html>

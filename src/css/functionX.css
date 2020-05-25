@@ -1,0 +1,334 @@
+@import "./functionXicons.css";
+
+/* background */
+.bg-none { background: none !important }
+.bg-liteGray { background-color: rgb(242, 242, 242) !important }
+.bg-tealGreen { background-color: rgba(158, 238, 218, 0.7) !important }
+.bg-liteBlack { background-color: rgb(51, 51, 51) !important }
+.bg-darkBlack { background-color: rgb(17, 17, 17) !important }
+.bg-pureBlack { background-color: black !important }
+.bg-img-center { 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+/* font-text */
+.text-plain { text-decoration: none !important }
+.text-orangeRed { color: orangered }
+.text-bightBlue { color: rgb(50, 156, 255) }
+.text-gray { color: rgb(145, 145, 145) }
+.f-larger { font-size: larger }
+.f-xlarge { font-size: x-large }
+.f-xxlarge { font-size: xx-large }
+.f-1em { font-size: 1em }
+.f-2em { font-size: 2em }
+.f-2-5em { font-size: 2.5em }
+.f-3em { font-size: 3em }
+
+/* max-width-height */
+.maxw-300 { max-width: 300px }
+.maxw-400 { max-width: 400px }
+.maxw-500 { max-width: 500px }
+.maxw-600 { max-width: 600px }
+.maxw-700 { max-width: 700px }
+.maxw-800 { max-width: 800px }
+.maxw-40 { max-width: 40% }
+.maxw-50 { max-width: 50% }
+.maxw-60 { max-width: 60% }
+.maxw-70 { max-width: 70% }
+.maxw-80 { max-width: 80% }
+.minw-400 { min-width: 400px }
+.minw-500 { min-width: 500px }
+.minw-600 { min-width: 600px }
+.minw-700 { min-width: 700px }
+.minw-800 { min-width: 800px }
+.minw-40 { min-width: 40% }
+.minw-50 { min-width: 50% }
+.minw-60 { min-width: 60% }
+.minw-70 { min-width: 70% }
+.minw-80 { min-width: 80% }
+
+.maxh-300 { max-height: 300px }
+.maxh-400 { max-height: 400px }
+.maxh-500 { max-height: 500px }
+.maxh-600 { max-height: 600px }
+.maxh-700 { max-height: 700px }
+.maxh-800 { max-height: 800px }
+.maxh-40 { max-height: 40% }
+.maxh-50 { max-height: 50% }
+.maxh-60 { max-height: 60% }
+.maxh-70 { max-height: 70% }
+.maxh-80 { max-height: 80% }
+.minh-400 { min-height: 400px }
+.minh-500 { min-height: 500px }
+.minh-600 { min-height: 600px }
+.minh-700 { min-height: 700px }
+.minh-800 { min-height: 800px }
+.minh-40 { min-height: 40% }
+.minh-50 { min-height: 50% }
+.minh-60 { min-height: 60% }
+.minh-70 { min-height: 70% }
+.minh-80 { min-height: 80% }
+
+/* flex-flexbox */
+.flexCenter{
+    justify-content: center;
+    align-items: center;
+}
+
+/* borders */
+.br-thin { border: solid 1px black }
+.br-medium { border: solid 2px black }
+.br-thick { border: solid 5px black }
+.br-darkGray { border-color: rgb(53, 53, 53) }
+.br-gray { border-color: rgb(145, 145, 145) }
+.br-liteGray { border-color: rgb(203, 203, 203) }
+.br-green { border-color: rgb(139, 195, 74) }
+.br-orange { border-color: rgb(255, 193, 5) }
+.br-blue { border-color: rgb(33, 150, 243) }
+
+/* invert */
+.invert { filter: invert(1) }
+
+/* transition animations */
+.fadeInUp{
+    animation: fadeInUp 0.4s ease-out 1;
+}
+.fadeOutDown{
+    animation: fadeOutDown 0.4s ease-out 1;
+}
+.fadeInDown{
+    animation: fadeInDown 0.4s ease-out 1;
+}
+.fadeOutUp{
+    animation: fadeOutUp 0.4s ease-out 1;
+}
+.fadeIn{
+    animation: fadeIn 0.4s ease-out 1;
+}
+.fadeOut{
+    animation: fadeOut 0.4s ease-out 1;
+}
+.fadeInLeft{
+    animation: fadeInLeft 0.4s ease 1;
+}
+.fadeOutLeft{
+    animation: fadeOutLeft 0.4s ease 1;
+}
+.fadeInRight{
+    animation: fadeInRight 0.4s ease 1;
+}
+.fadeOutRight{
+    animation: fadeOutRight 0.4s ease 1;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, calc(5% + 50px), 0);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeOutDown {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    
+    to {
+    opacity: 0;
+    transform: translate3d(0, calc(5% + 50px), 0);
+    }
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, calc(-5% - 50px), 0);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeOutUp {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    
+    to {
+    opacity: 0;
+    transform: translate3d(0, calc(-5% - 50px), 0);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+      }
+    
+      to {
+        opacity: 0;
+      }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(calc(5% + 50px), 0, 0);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeOutLeft {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    
+    to {
+    opacity: 0;
+    transform: translate3d(calc(5% + 50px), 0, 0);
+    }
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(calc(-5% - 50px), 0, 0);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeOutRight {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    
+    to {
+    opacity: 0;
+    transform: translate3d(calc(-5% - 50px), 0, 0);
+    }
+}
+
+/* image Viewer */
+#imageViewerX{
+    position: fixed;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.86);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+#imageViewerX .previous, #imageViewerX .next {
+    width: 10%;
+    margin-right: auto;
+    display: flex;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 41, 41);
+    font-size: 3em;
+    transition: all 0.2s ease;
+    text-shadow: 3px 0 0 rgb(33, 150, 243), -3px 0 0 rgb(255, 152, 0), 8px 0 5px rgba(0, 0, 0, 0.34);
+}
+#imageViewerX .next{
+    margin: unset;
+    margin-left: auto;
+    text-shadow: -3px 0 0 rgb(33, 150, 243), 3px 0 0 rgb(255, 152, 0), -8px 0 5px rgba(0, 0, 0, 0.34);
+}
+#imageViewerX .previous:hover, #imageViewerX .next:hover{
+    opacity: 1;
+}
+#imageViewerX .image{
+    display: none;
+    position: absolute;
+    max-width: 90%;
+    max-height: 80%;
+    align-self: center;
+}
+#imageViewerX .close {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 8%;
+    opacity: 0.8;
+    background: rgb(244, 67, 54);
+    font-size: 1em;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.38);
+    transition: all 0.2s ease;
+    outline: none;
+}
+#imageViewerX .close:hover{
+    opacity: 1;
+    transform: scale(1.3);
+}
+#imageViewerX .close:active{
+    transform: scale(1);  
+}
+
+/* scrollTopX */
+#scrollTopX{
+    position: fixed;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    bottom: 5%;
+    right: 5%;
+    background-color: rgb(0, 0, 0);
+    border: solid rgba(255, 255, 255);
+    opacity: 0.5;
+    color: white;
+    border-radius: 50px;
+    animation: fadeInUp 1 0.2s ease;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#scrollTopX:hover{
+    opacity: 1;
+}
+#scrollTopX.active{
+    display: flex;
+}
+
+/* customCursorX */
+.customCursorXelem{
+    cursor: none !important;
+}
+.customCursorX{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: none !important;
+}
