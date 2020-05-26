@@ -88,6 +88,13 @@ body{
     margin: 5px 0;
     transition: 0.2s ease-in-out all;
 }
+.votingForm{
+    width: 100%;
+    height: 810px;
+    background-color: white;
+    padding: 15px 10px;
+    overflow: hidden;
+}
 .voter{
     font-size: larger;
     display: flex;
@@ -140,9 +147,9 @@ body{
 }
 .author{
     overflow: hidden;
-    width: 60px;
+    width: 70px;
     min-width: 60px;
-    height: 60px;
+    max-height: 80px;
     border-radius: 5px;
     background-image: url(../images/author.jpg);
 }

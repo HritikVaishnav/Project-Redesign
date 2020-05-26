@@ -14,25 +14,10 @@ setPopUp({
 },true);
 
 const scrollTop = new scrollToTopX();
+
 var images = $e("@.promoImg img");
 const imgViewer = new imageViewerX(images);
 const customCursors = new customCursorX('span.iconx-zoom.promoImgCursor', images);
-//animateBg($e("#content"));
-
-function animateBg(elem) {
-    var e = elem;
-    elem.$evt('mousemove', animate, 'animateBg');
-    var positionX = elem.$cs('bgpx', true);
-    var positionY = elem.$cs('bgpy', true);
-
-    function animate(event) {
-        positionX = positionX - event.movementX * 0.02;
-        positionY = positionY - event.movementY * 0.02;
-        var newValue = positionX + 'px ' + positionY + 'px';
-        e.$s("bgp:" + newValue);
-
-    }
-}
 
 //compare img
 var compareElems = $cls("imgcompare");

@@ -27,19 +27,4 @@ setPopUp({
     dflag:true
 },true);
 
-//setting Event on votingList
-let Vlist = $e("#voting-list");
-Vlist.$evt('click',vote);
-
-function vote(event){
-    if(event.target.tagName === 'BUTTON'){
-        Vlist.className += " voted";
-        event.target.className += " active";
-        allBtns = Vlist.$e('@button');
-
-        //write your code here garvit
-        fast4(0,allBtns.length,function(i){
-            allBtns[i].innerText = "100%"
-        })
-    }
-}
+const scrollTop = new scrollToTopX();

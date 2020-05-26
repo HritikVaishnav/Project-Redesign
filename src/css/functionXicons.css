@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'functionX';
-  src:  url('functionXicons/functionX.eot?nts914');
-  src:  url('functionXicons/functionX.eot?nts914#iefix') format('embedded-opentype'),
-    url('functionXicons/functionX.ttf?nts914') format('truetype'),
-    url('functionXicons/functionX.woff?nts914') format('woff'),
-    url('functionXicons/functionX.svg?nts914#functionX') format('svg');
+  src:  url('fonts/functionX.eot?1uc6n5');
+  src:  url('fonts/functionX.eot?1uc6n5#iefix') format('embedded-opentype'),
+    url('fonts/functionX.ttf?1uc6n5') format('truetype'),
+    url('fonts/functionX.woff?1uc6n5') format('woff'),
+    url('fonts/functionX.svg?1uc6n5#functionX') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,222 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.iconx-certificate:before {
+  content: "\e91a";
+}
+.iconx-insert_chart:before {
+  content: "\e91b";
+}
+.iconx-poll:before {
+  content: "\e91b";
+}
+.iconx-assessment:before {
+  content: "\e91b";
+}
+.iconx-creative-commons-sharealike:before {
+  content: "\e916";
+}
+.iconx-creative-commons-noncommercial-us:before {
+  content: "\e917";
+}
+.iconx-creative-commons-attribution:before {
+  content: "\e918";
+}
+.iconx-creative-commons:before {
+  content: "\e919";
+}
+.iconx-home3:before {
+  content: "\e90f";
+}
+.iconx-pencil2:before {
+  content: "\e910";
+}
+.iconx-pen:before {
+  content: "\e911";
+}
+.iconx-paint-format:before {
+  content: "\e912";
+}
+.iconx-images:before {
+  content: "\e913";
+}
+.iconx-camera:before {
+  content: "\e914";
+}
+.iconx-video-camera:before {
+  content: "\e915";
+}
+.iconx-mic:before {
+  content: "\e91e";
+}
+.iconx-file-text:before {
+  content: "\e922";
+}
+.iconx-file-picture:before {
+  content: "\e927";
+}
+.iconx-location2:before {
+  content: "\e948";
+}
+.iconx-history:before {
+  content: "\e94d";
+}
+.iconx-bell:before {
+  content: "\e951";
+}
+.iconx-stopwatch:before {
+  content: "\e952";
+}
+.iconx-display:before {
+  content: "\e956";
+}
+.iconx-laptop:before {
+  content: "\e957";
+}
+.iconx-mobile:before {
+  content: "\e958";
+}
+.iconx-tablet:before {
+  content: "\e95a";
+}
+.iconx-floppy-disk:before {
+  content: "\e962";
+}
+.iconx-undo:before {
+  content: "\e965";
+}
+.iconx-redo:before {
+  content: "\e966";
+}
+.iconx-quotes-left:before {
+  content: "\e977";
+}
+.iconx-quotes-right:before {
+  content: "\e978";
+}
+.iconx-spinner9:before {
+  content: "\e982";
+}
+.iconx-search:before {
+  content: "\e986";
+}
+.iconx-zoom-in:before {
+  content: "\e987";
+}
+.iconx-zoom-out:before {
+  content: "\e988";
+}
+.iconx-lock:before {
+  content: "\e98f";
+}
+.iconx-wrench:before {
+  content: "\e991";
+}
+.iconx-equalizer:before {
+  content: "\e992";
+}
+.iconx-cog:before {
+  content: "\e994";
+}
+.iconx-bug:before {
+  content: "\e999";
+}
+.iconx-attachment:before {
+  content: "\e9cd";
+}
+.iconx-contrast:before {
+  content: "\e9d5";
+}
+.iconx-happy:before {
+  content: "\e9df";
+}
+.iconx-cancel-circle:before {
+  content: "\ea0d";
+}
+.iconx-cross:before {
+  content: "\ea0f";
+}
+.iconx-play2:before {
+  content: "\ea15";
+}
+.iconx-loop2:before {
+  content: "\ea2e";
+}
+.iconx-arrow-right2:before {
+  content: "\ea3c";
+}
+.iconx-arrow-left2:before {
+  content: "\ea40";
+}
+.iconx-circle-up:before {
+  content: "\ea41";
+}
+.iconx-circle-right:before {
+  content: "\ea42";
+}
+.iconx-checkbox-checked:before {
+  content: "\ea52";
+}
+.iconx-checkbox-unchecked:before {
+  content: "\ea53";
+}
+.iconx-new-tab:before {
+  content: "\ea7e";
+}
+.iconx-embed2:before {
+  content: "\ea80";
+}
+.iconx-google2:before {
+  content: "\ea89";
+}
+.iconx-facebook2:before {
+  content: "\ea91";
+}
+.iconx-instagram:before {
+  content: "\ea92";
+}
+.iconx-whatsapp:before {
+  content: "\ea93";
+}
+.iconx-twitter:before {
+  content: "\ea96";
+}
+.iconx-youtube:before {
+  content: "\ea9d";
+}
+.iconx-github:before {
+  content: "\eab0";
+}
+.iconx-windows8:before {
+  content: "\eac2";
+}
+.iconx-reddit:before {
+  content: "\eac6";
+}
+.iconx-wikipedia:before {
+  content: "\eac8";
+}
+.iconx-linkedin:before {
+  content: "\eac9";
+}
+.iconx-paypal:before {
+  content: "\ead8";
+}
+.iconx-chrome:before {
+  content: "\ead9";
+}
+.iconx-firefox:before {
+  content: "\eada";
+}
+.iconx-edge:before {
+  content: "\eadc";
+}
+.iconx-safari:before {
+  content: "\eadd";
+}
+.iconx-opera:before {
+  content: "\eade";
+}
 .iconx-close:before {
   content: "\e900";
 }

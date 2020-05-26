@@ -22,7 +22,8 @@ a.hoverblack:hover,.hoverblack:hover{
     background-color: rgb(255, 152, 0);
     color: white;
 }
-.termsOfUse:hover{
+.termsOfUse:hover, .by-na-sa:hover{
+    cursor: pointer;
     color: orangered
 }
 .closeBtn:hover{

@@ -9,7 +9,6 @@
   "author": "Hritik Vaishnav",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1"
   }
 }
