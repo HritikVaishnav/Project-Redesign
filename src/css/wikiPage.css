@@ -44,7 +44,7 @@ body{
     z-index: 1;
 }
 .imgcompare{
-    border: solid 10px black;
+    border: solid 3px black;
 }
 .imgcompare,.imgfirst,.imgsecond{
     width: 100%;
@@ -79,6 +79,7 @@ body{
     text-align: center;
     font-weight: bold;
     background-color: rgb(30, 41, 45);
+    transform: scale(0.6);
 }
 .imgsecond span{
     left: 0;
@@ -103,5 +104,11 @@ body{
 @media only screen and (min-width: 680px){
     .wiki-nav{
         justify-content: flex-end !important;
+    }
+    .imgcompare{
+        border-width: 10px;
+    }
+    .imgfirst span,.imgsecond span{
+        transform: scale(1);
     }
 }
