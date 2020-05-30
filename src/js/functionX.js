@@ -706,3 +706,19 @@ class customCursorX{
         }
     }
 }
+
+//text alerts
+function alertUserX([data,parent],timeout){
+    timeout ? null : timeout = 1000;
+    let span = document.createElement('span');
+    span.className = 'textAlertX';
+    span.innerHTML = data;
+    parent ? null : parent = document.body;
+    parent.appendChild(span);
+    setTimeout(function(){
+        span.classList.add('fadeOut');
+        setTimeout(function(){
+            span.remove();
+        },200)
+    },timeout) 
+}

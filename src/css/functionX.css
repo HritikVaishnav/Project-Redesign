@@ -332,3 +332,19 @@
     z-index: 1000;
     pointer-events: none !important;
 }
+
+/* text alert */
+.textAlertX{
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 12px;
+    background-color: #FF5722;
+    color: white;
+    z-index: 1000;
+    border: solid 4px #ba4019;
+    font-size: 1.2em;
+    box-shadow: 0 14px 28px #0000004a;
+    animation: fadeIn 0.2s ease;
+}
