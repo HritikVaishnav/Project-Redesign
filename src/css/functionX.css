@@ -18,9 +18,13 @@
 .text-orangeRed { color: orangered }
 .text-bightBlue { color: rgb(50, 156, 255) }
 .text-gray { color: rgb(145, 145, 145) }
+.f-small { font-size: small }
+.f-smaller { font-size: smaller }
 .f-larger { font-size: larger }
 .f-xlarge { font-size: x-large }
 .f-xxlarge { font-size: xx-large }
+.f-06em { font-size: 0.6em }
+.f-08em { font-size: 0.8em }
 .f-1em { font-size: 1em }
 .f-2em { font-size: 2em }
 .f-2-5em { font-size: 2.5em }
@@ -79,7 +83,7 @@
 
 /* borders */
 .br-thin { border: solid 1px black }
-.br-medium { border: solid 2px black }
+.br-medium { border: solid 3px black }
 .br-thick { border: solid 5px black }
 .br-darkGray { border-color: rgb(53, 53, 53) }
 .br-gray { border-color: rgb(145, 145, 145) }
