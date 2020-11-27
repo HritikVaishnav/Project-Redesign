@@ -22,8 +22,8 @@
                     <img width="50px" src="./src/images/prLogo.png" alt="Logo">
                 </span>
                 <div class="options" id="nav-options">
-                    <a href="./public/wiki.html" target="#">Wiki Redesigned</a>
-                    <a href="#About">About</a>
+                    <a onclick="scrolltoX('#Projects')">Projects</a>
+                    <a onclick="scrolltoX('#About')">About</a>
                 </div>
                 <button class="btn" id="nav-toggle-btn">
                     <i class="iconx-navmenu"></i>
@@ -32,7 +32,7 @@
             
             <div class="jumbotron bg-none px-0 pb-0">
                 <div class="pr-text-logo mb-5 maxw-700">
-                    <img class="w-100" src="./src/images/prTextlogo2.svg" alt="logo">
+                    <img class="w-100" src="./src/images/prTextlogo.svg" alt="logo">
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -49,121 +49,63 @@
     </div>
 
     <div class="container-fluid">
-        <div class="container py-4 px-0 my-4">
-            <h2 class="font-weight-bolder flashHead" id="Projects">Projects :</h2>
-            <div class="row py-4">
-                <div class="col-md-4">
-                    <div class="wiki-card h-100 p-3 bg-darkBlack br-thick">
-                        <a href="./public/wiki.html" class="text-plain text-white">
-                            <img class="card-img-top" src="./src/images/WikiRedesigned.svg" alt="WikiRedesign">
-                            <div class="card-body text-center">
-                                <h4 class="card-title">Wiki Redesigned</h4>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <div class="mx-4">
-                                        <div>
-                                            <i class="iconx-display"></i>
-                                            <i class="iconx-laptop"></i>
-                                        </div>
-                                        <div class="f-larger">PC Only</div>
-                                    </div>
-                                    <div class="d-flex align-items-center" style="font-size: 35px">
-                                        <i class="iconx-firefox"></i>
-                                        <span class="px-2">|</span> 
-                                        <i class="iconx-chrome"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-8 d-flex justify-content-center">
-                   <div class="maxw-600 py-3">
-                       <div class="px-2">
-                           <h2 class="mb-3">A redesigned interface for wikimedia projects</h2>
-                           <h4>Supported projects :</h4>
-                       </div>
-                       <div class="d-flex flex-wrap text-center py-3 justify-content-center">
-                           <a class="wiki-sister-logo" target="#" href="https://commons.wikimedia.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/Commons.png" alt="wikicommons">
-                               <div>commons</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://www.mediawiki.org/wiki/MediaWiki">
-                               <img src="./src/images/wiki sister projects/Mediawiki.png" alt="mediawiki">
-                               <div>wikimedia</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://meta.wikimedia.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/metawiki.png" alt="metawiki">
-                               <div>metawiki</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://en.wikibooks.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/wikibooks.png" alt="wikibooks">
-                               <div>wikibooks</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#"
-                               href="https://www.wikidata.org/wiki/Wikidata:Main_Page">
-                               <img src="./src/images/wiki sister projects/wikidata.png" alt="wikidata">
-                               <div>wikidata</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://en.wikinews.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/wikinews.png" alt="wikinews">
-                               <div>wikinews</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://en.wikipedia.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/wikipedia.png" alt="wikipedia">
-                               <div>wikipedia</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://en.wikiquote.org/wiki/Main_Page">
-                               <img src="/src/images/wiki sister projects/wikiquote.png" alt="wikiquote">
-                               <div>wikiquote</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://en.wikisource.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/wikisource.png" alt="wikisource">
-                               <div>wikisource</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://species.wikimedia.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/wikispecies.png" alt="wikispecies">
-                               <div>wikispecies</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#"
-                               href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page">
-                               <img src="./src/images/wiki sister projects/wikitionary.png" alt="wikitionary">
-                               <div>wikitionary</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#"
-                               href="https://en.wikiversity.org/wiki/Wikiversity:Main_Page">
-                               <img src="./src/images/wiki sister projects/wikiversity.png" alt="wikiversity">
-                               <div>wikiversity</div>
-                           </a>
-                           <a class="wiki-sister-logo" target="#" href="https://en.wikivoyage.org/wiki/Main_Page">
-                               <img src="./src/images/wiki sister projects/wikivoyage.png" alt="wikivoyage">
-                               <div>wikivoyage</div>
-                           </a>
-                       </div>
-                   </div>
-                </div>
-            </div>
-            <hr class="mb-5">
-            <div class="row align-items-start">
-                <div class="col-lg-4">
-                    <div class="d-flex h-100 justify-content-center" style="background: rgba(0,0,0,0.05);">
-                        <h1 class="maxw-500 p-4">
-                            <i class="ml-2 iconx-poll"></i>
-                            Help us decide which website we should redesign next 
-                        </h1>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <iframe class="votingForm" src="https://docs.google.com/forms/d/e/1FAIpQLSe4LSHE9jzLlQ0XqrI3aGmThSDbdk1jIFcW3R0ZG2qsyZpbQQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </div>
-            </div>
-            <hr class="mt-5 mb-0">
-        </div>
-    </div>
-
-    <div class="container-fluid">
         <div class="container py-4 px-0">
-            <h2 class="font-weight-bolder flashHead mb-4" id="About">About :</h2>
-            <div class="p-4" style="background:rgba(0,0,0,0.05); backdrop-filter:blur(15px)">
+            <!-- projects -->
+            <h2 class="font-weight-bolder flashHead" id="Projects">Projects :</h2>
+            <div class="row flex-wrap projects-wrapper">
+                <!-- my anime list card -->
+                <div class="custom-card">
+                    <div class="image">
+                        <img src="./src/images/myanimelist/mal-redesigned.png" alt="mal logo">
+                    </div>
+                    <div class="title">Mal-Redesigned</div>
+                    <div class="description">A simple and clean overhaul of 
+                        <a href="http://myanimelist.net" class="text-muted">myanimelist.net</a> interface
+                    </div>
+                    <div class="avalibility d-flex justify-content-between">
+                        <div class="pc-only d-flex align-items-center">
+                            <i class="iconx-display mr-2"></i>
+                            <span>PC-only</span>
+                        </div>
+                        <div class="d-flex align-items-center logo-links">
+                            <i class="iconx-firefox"></i>
+                            <span class="px-2">|</span> 
+                            <i class="iconx-chrome"></i>
+                        </div>
+                    </div>
+                    <a href="./public/mal.html" class="viewMore">
+                        <span>View More</span>
+                    </a>
+                </div>
+
+                <!-- wiki media card -->
+                <div class="custom-card">
+                    <div class="image">
+                        <img src="./src/images/wikiLogo.svg" alt="wiki logo">
+                    </div>
+                    <div class="title">Wiki-Redesigned</div>
+                    <div class="description">Complete redesign of all wikimedia projects</div>
+                    <div class="avalibility d-flex justify-content-between">
+                        <div class="pc-only d-flex align-items-center">
+                            <i class="iconx-display mr-2"></i>
+                            <span>PC-only</span>
+                        </div>
+                        <div class="d-flex align-items-center logo-links">
+                            <i class="iconx-firefox"></i>
+                            <span class="px-2">|</span> 
+                            <i class="iconx-chrome"></i>
+                        </div>
+                    </div>
+                    <a href="./public/wiki.html" class="viewMore">
+                        <span>View More</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- about -->
+            <hr class="my-5">
+            <h2 class="font-weight-bolder flashHead" id="About">About :</h2>
+            <div class="p-4" style="background:#ffffff99; backdrop-filter:blur(5px)">
                 <div class="">
                     <h4 class="font-weight-bold">What is Project Redesign?</h4>
                     <p class="f-larger m-0">
@@ -207,6 +149,19 @@
                     <p class="f-larger m-0">
                         Not Yet ,  But i have plans to make it open source after some time.
                     </p>
+                </div>
+            </div>
+
+            <!-- help us form -->
+            <hr class="my-5">
+            <div class="helpUsForm">
+                <h2 class="font-weight-bolder flashHead" id="Projects">We need your help :</h2>
+                <h1 class="mb-4">
+                    Help us decide which website we should redesign next 
+                    <i class="ml-2 iconx-poll"></i>
+                </h1>
+                <div>
+                    <iframe class="votingForm" src="https://docs.google.com/forms/d/e/1FAIpQLSe4LSHE9jzLlQ0XqrI3aGmThSDbdk1jIFcW3R0ZG2qsyZpbQQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
 

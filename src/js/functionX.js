@@ -722,3 +722,15 @@ function alertUserX([data,parent],timeout){
         },200)
     },timeout) 
 }
+
+// scroll to target
+function scrolltoX(target){
+    if(target){
+        var e = typeof target === "string" ? $e(target) : target;
+        var boundings = e.getBoundingClientRect();
+        window.scrollTo({
+            top: boundings.top - 80,
+            behavior: 'smooth'
+        })
+    }
+}

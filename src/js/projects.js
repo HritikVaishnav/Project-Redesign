@@ -13,12 +13,6 @@ setPopUp({
     dflag:true
 },true);
 
-const scrollTop = new scrollToTopX();
-
-var images = $e("@.promoImg img");
-const imgViewer = new imageViewerX(images);
-const customCursors = new customCursorX('span.iconx-zoom.promoImgCursor', images);
-
 //compare img
 var compareElems = $cls("imgcompare");
 fast4(0, compareElems.length, function (i) {
@@ -59,3 +53,7 @@ function compareImg(elem) {
         elem.ontouchend = null;
     }
 }
+
+const scrollTop = new scrollToTopX();
+var images = $e("@.promoImg img");
+const imgViewer = new imageViewerX(images);

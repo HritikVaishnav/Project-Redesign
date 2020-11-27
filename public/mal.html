@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mal Redesigned</title>
+    <link rel="shortcut icon" type="image/png" href="../src/images/favicon.png"/>
+    <link rel="stylesheet" href="../src/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/functionX.css">
+    <link rel="stylesheet" href="../src/css/projectR.css">
+    <link rel="stylesheet" href="../src/css/malPage.css">
+    <script src="../src/js/functionX.js"></script>
+</head>
+<body>
+    <div class="container-fluid topBox">
+        <div class="background"></div>
+        <div class="container py-5">
+            <div class="mal-nav row mx-0">
+                <a href="../index.html">Home</a>
+                <span>
+                    <img class="brandLogo" width="30px" src="../src/images/prLogoWhite.svg" alt="Logo">
+                </span>
+            </div>
+            <div class="titleLogo">
+                <img src="../src/images/myanimelist/mal-redesigned.png" alt="mal logo">
+            </div>
+            <div class="description">
+                I am a big fan of anime and an regular user of <a href="http://myanimelist.net">myanimelist.net</a> website
+                but the design is very old. So I decided to make a reskin or Redesign extension for
+                the website. It's basically an extension that override my <b>custom css</b> over the <b>default css</b>,
+                to give website a modern look and feel.
+            </div>
+            <div class="download row mx-0">
+                <a  class="extensionLink" onclick="alertUserX(['Will be avaliable very soon'],1000)">
+                    Chrome<i class="iconx-chrome ml-2"></i>
+                </a>
+                <a  class="extensionLink" onclick="alertUserX(['Will be avaliable very soon'],1000)">
+                    Firefox<i class="iconx-firefox ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container pb-3">
+            <div class="imgcompare">
+                <div class="imgfirst">
+                    <img src="../src/images/myanimelist/screen1.2.jpg" alt="">
+                    <span>old</span>
+                </div>
+                <div class="imgsecond">
+                    <img src="../src/images/myanimelist/screen1.jpg" alt="">
+                    <span>new</span>
+                </div>
+                <span class="compare-bar"></span>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-5 flex-column">
+                    <span class="promoImg"><img src="../src/images/myanimelist/screen2.jpg" alt="old" data-imgviewerx="0"></span>
+                </div>
+                <div class="col-lg-6 mb-5 flex-column">
+                    <span class="promoImg"><img src="../src/images/myanimelist/screen3.jpg" alt="old" data-imgviewerx="1"></span>
+                </div>
+                <div class="col-lg-6 mb-5 flex-column">
+                    <span class="promoImg"><img src="../src/images/myanimelist/screen4.jpg" alt="old" data-imgviewerx="1"></span>
+                </div>
+                <div class="col-lg-6 mb-4 flex-column">
+                    <span class="promoImg"><img src="../src/images/myanimelist/screen5.jpg" alt="old" data-imgviewerx="1"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="container pb-5">
+            <div id="footer" class="row m-0 p-0">
+                <div class="col-md-6 mt-4 p-4 bg-darkBlack text-light" name="author">
+                    <h4>
+                        Developer :
+                    </h4>
+                    <div class="d-flex f-larger">
+                        <span class="author bg-img-center mt-2"></span>
+                        <div class="d-flex flex-column ml-3">
+                            <span class="font-weight-bold">
+                               <span>Hritik Vaishnav</span>
+                                <div class="f-larger d-inline-block">
+                                    <a href="https://in.linkedin.com/in/hritik-vaishnav"><i class="iconx-linkedin"></i></a>
+                                    <a href="https://github.com/HritikVaishnav"><i class="iconx-github"></i></a>
+                                </div>
+                            </span>
+                            <p>
+                                I started the project for personal use but then decided to expand
+                                and share with the community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 bg-gray-fade mt-4 py-4 f-larger d-flex align-items-center" name="footer">
+                    <div class="mx-auto w-100 text-center">
+                        <div class="py-1">
+                            <i class="iconx-copyright"></i> Project Redesign 2019-2020
+                        </div>
+                        <div class="py-1 termsOfUse">
+                            <i class="iconx-file-text"></i> Terms fo Use
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- terms of use modal -->
+            <div class="modalContainer" id="termsOfUse">
+                <div class="modalContent maxw-700 bg-light p-4 rounded mx-auto">
+                    <button class="btn float-right f-larger closeBtn modelCloseBtn">
+                        <i class="iconx-cross"></i>
+                    </button>
+                    <h2>Terms of Use :</h2>
+                    <hr class="my-4">
+                    <div class="p-2">
+                        <h4>Privacy <i class="ml-2 iconx-lock"></i></h4>
+                        <p class="f-larger">
+                            <ul>
+                                <li>Project Redesign does not collect any data of any kind.</li>
+                                <li>We do not embed any kind of analytic hooks in its code.</li>
+                                <li>We have no home server.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="p-2">
+                        <h4>License - website <i class="ml-2 iconx-certificate"></i></h4>
+                        <p class="f-larger">
+                            The website of "Project Redesign" is released under : <br>
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="#">
+                                <span>
+                                    <i class="iconx-creative-commons"></i>
+                                    <i class="iconx-creative-commons-attribution"></i>
+                                    <i class="iconx-creative-commons-noncommercial-us"></i>
+                                    <i class="iconx-creative-commons-sharealike"></i>
+                                </span>
+                                <span>CC BY-NC-SA</span>
+                            </a>
+                            , The code is avaliable on <a target="#" href="https://github.com/HritikVaishnav/Project-Redesign">Github</a> 
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="p-2">
+                        <h4>License - extensions <i class="ml-2 iconx-certificate"></i></h4>
+                        <p class="f-larger">
+                            The softwares/extensions in to project redesign are released under : <br>
+                            <b>Freeware License</b>(for now). <br>
+                            Conditions: <br>
+                            <ul>
+                                <li>The software  is free to download and do not require any payment or license fee.</li>
+                                <li>You may not distribute,  copy , publish, assign, sell, bargain, convey, transfer, pledge, lease or 
+                                    grant any further rights to use the software.
+                                </li>
+                                <li>You are not allowed to edit/make-changes to the software code.</li>
+                                <li>You cannot use the software/software-resources for any commercial purpose.</li>
+                                <li>Use within the scope of this license is free of charge and no royalty or licensing fees shall be
+                                    payable by you. Use beyond the scope of this license shall constitute copyright infringement.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="../src/js/projects.js"></script>
+</body>
+</html>

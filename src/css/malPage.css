@@ -1,0 +1,145 @@
+body{
+    background: none;
+}
+.topBox{
+    position: relative;
+}
+.topBox .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.1;
+    filter: grayscale(1) brightness(1.5);
+    background-image: url("../images/myanimelist/background.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.mal-nav{
+    justify-content: flex-end;
+    margin-bottom:30px;
+}
+.mal-nav > *{
+    padding: 10px 20px;
+    background: #333333;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+.mal-nav a:hover{
+    background-color: #ffb607;
+}
+.titleLogo{
+    text-align: center;
+}
+.titleLogo img{
+    width: 100%;
+    max-width: 700px;
+}
+.description{
+    font-size: 1.3em;
+    margin-top: 35px;
+    padding: 5% 5%;
+    background: #ededed;
+}
+.download{
+    font-size: 1.8em;
+    margin-right: -15px !important;
+    margin-top: 20px;
+}
+.extensionLink{
+    flex-grow: 1;
+    padding: 20px 15px;
+    text-align: center;
+    background: #2554a3;
+    color: white !important;
+    margin: 15px 15px 0 0;
+    text-decoration: none !important;
+}
+.extensionLink:hover{
+    background-color: #173566;
+}
+
+/* img compare */
+.imgcompare{
+    border: solid 6px #2554a3;
+}
+.imgcompare,.imgfirst,.imgsecond{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.compare-bar{
+    height: 100%;
+    width: 10px;
+    background-color:#397ae6;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-image: url(../images/bar.svg);
+    background-position: top;
+}
+.imgsecond{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+.imgfirst span,.imgsecond span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    width: 90px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    transform: scale(0.6);
+}
+.imgsecond span{
+    left: 0;
+    right: auto;
+}
+.imgfirst img{
+    width: 100%;
+}
+.imgsecond img{
+    width: auto;
+    height: 100%;
+}
+
+/* images */
+.promoImg img:hover{
+    cursor: zoom-in;
+}
+.promoImg img{
+    border: solid 6px #516aa4;
+}
+
+/* footer */
+.termsOfUse:hover, .by-na-sa:hover {
+    color: #2e77f2;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .imgfirst span, .imgsecond span{
+        transform: scale(1);
+        font-size: 12px;
+        padding: 2px 0 !important;
+        width: 32px;
+        background-color: #0062cc;
+    }
+    .imgcompare,.promoImg img{
+        border-width: 2px;
+    }
+    .compare-bar{
+        width: 6px;
+    }
+}

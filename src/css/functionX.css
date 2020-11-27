@@ -7,6 +7,8 @@
 .bg-liteBlack { background-color: rgb(51, 51, 51) !important }
 .bg-darkBlack { background-color: rgb(17, 17, 17) !important }
 .bg-pureBlack { background-color: black !important }
+.bg-blue-fade { background-color: rgb(210, 227, 255) !important }
+.bg-gray-fade { background-color: rgb(237 237 237) !important }
 .bg-img-center { 
     background-position: center;
     background-size: cover;

@@ -19,6 +19,7 @@ body{
     padding: 10px 20px;
     color: white;
     box-shadow: 5px 5px #FFEB3B, -5px -5px #dcdcdc;
+    margin-bottom: 30px;
 }
 .flashHead2{
     box-shadow: 5px 5px #000000, -5px -5px #dcdcdc;
@@ -66,7 +67,7 @@ body{
     padding: 30px;
     display: none;
 }
-.navigationBar .options  a{
+.navigationBar .options a{
     padding: 6px 12px;
     text-decoration: none;
     color: white;
@@ -74,6 +75,7 @@ body{
     border: solid 1px transparent;
     background-color: unset;
     margin: 0 6px;
+    cursor: pointer;
 }
 #nav-toggle-btn{
     font-size: larger;
@@ -90,10 +92,14 @@ body{
 }
 .votingForm{
     width: 100%;
-    height: 835px;
+    height: 430px;
     background-color: white;
-    padding: 15px 10px;
+    padding: 15px 0px;
     overflow: hidden;
+    border: solid 5px rgb(216 230 255);
+    border-radius: 12px;
+    border-left-color: #c1ffc2;
+    border-bottom-color: #c1ffc2;
 }
 .voter{
     font-size: larger;
@@ -163,11 +169,10 @@ body{
     padding: 40px 20px;
     align-items: flex-start;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     display: none;
     /* pointer-events: none; */
     overflow: auto;
-    backdrop-filter: blur(2px);
 }
 .closeBtn{
     z-index: 10;
@@ -209,6 +214,71 @@ body{
     font-size: smaller;
 }
 
+.projects-wrapper{
+    margin: -20px -20px 0px -20px;
+}
+.custom-card{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    padding: 15px;
+    background-color: #ffffffcc;
+    border: solid 5px white;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+    border-radius: 5px;
+    margin: 20px;
+}
+.custom-card .image{
+    margin: -15px -15px 0px -15px;
+    padding: 24px 20px;
+    background: #ffffff;
+    height: 150px;
+}
+.custom-card .image img{
+    width: 100%;
+    max-height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom-card .title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 20px 0 0;
+    color: #252525;
+    padding-bottom: 10px;
+}
+.custom-card .description{
+    margin-bottom: 15px;
+}
+.custom-card .avalibility{
+    font-size: 20px;
+    margin-top: auto;
+    padding: 10px;
+    /* background: #eaeaea; */
+    border: 1px #cecece solid;
+    border-radius: 2px;
+}
+.custom-card .pc-only{
+    font-size: 15px;
+    font-weight: bold;
+}
+.custom-card .logo-links{
+
+}
+.custom-card .viewMore{
+    display: flex;
+    text-decoration: none !important;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(216,230,255,1), rgba(193,255,194,1));
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+.custom-card .viewMore:hover{
+    filter: brightness(0.9) saturate(2);
+}
+
 @media only screen and (min-width: 680px){
     .navigationBar .options{
         display: flex !important;
@@ -223,7 +293,7 @@ body{
         border-radius: 0px;
         padding: 0px;
     }
-    .navigationBar .options  a{
+    .navigationBar .options a{
         color: rgb(255, 255, 255);
         background-color: rgb(42, 159, 129);
     }
