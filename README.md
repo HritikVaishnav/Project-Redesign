@@ -1,3 +1,2 @@
 # Project-Redesign
-Website for Project redesign
-link  : https://hritikvaishnav.github.io/Project-Redesign/
+Website for Project redesign : https://hritikvaishnav.github.io/Project-Redesign/
