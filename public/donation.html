@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Support Mal Redesign</title>
     <style>
+        :root{
+            --bg: #e0e0e0;
+            --bg2: #c0e2d9;
+        }
         html,body{
             margin: 0;
             padding: 0;
@@ -21,7 +25,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #efefef;
+            background: var(--bg);
             padding: 0px 15px;
             box-sizing: border-box;
         }
@@ -45,12 +49,14 @@
             margin-bottom: 25px;
             padding: 3vh 3vw;
             font-size: 1.5em;
-            border-radius: 10px;
+            border-radius: 50px;
             border: none;
             font-family: monospace;
-            box-shadow: -4px -4px 12px #ffffff, -1px -1px 2px #ffffff, 4px 4px 12px #00000026;
+            /* box-shadow: -4px -4px 12px #ffffff, -1px -1px 2px #ffffff, 4px 4px 12px #00000026; */
+            box-shadow: -6px -6px 8px #ffffff80, 2px 2px 3px #ffffffcc inset, -1px -1px 2px #00000014 inset, 4px 4px 12px #00000026;
             transition: all 0.3s ease;
             cursor: pointer;
+            background: transparent;
         }
         .actions i {
             font-size: 0.7em;
@@ -75,6 +81,9 @@
             color: rgb(0 0 0 / 50%);
             text-decoration: none;
             font-size: 1.2em;
+        }
+        .links-box > a:last-child {
+            margin-bottom: 0;
         }
         .links-box > a:hover{
             color: #0056ff;
