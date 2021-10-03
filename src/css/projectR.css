@@ -20,6 +20,7 @@ body{
     color: white;
     box-shadow: 5px 5px #FFEB3B, -5px -5px #dcdcdc;
     margin-bottom: 30px;
+    border-radius: 8px;
 }
 .flashHead2{
     box-shadow: 5px 5px #000000, -5px -5px #dcdcdc;
@@ -44,6 +45,7 @@ body{
     align-items: center;
     font-size: larger;
     z-index: 10;
+    border-radius: 8px;
 }
 .navigationBar .brandLogo{
     font-weight: bold;
@@ -76,6 +78,7 @@ body{
     background-color: unset;
     margin: 0 6px;
     cursor: pointer;
+    border-radius: 6px;
 }
 #nav-toggle-btn{
     font-size: larger;
@@ -225,7 +228,7 @@ body{
     background-color: #ffffffcc;
     border: solid 5px white;
     box-shadow: 0 4px 12px rgba(0,0,0,.12);
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 20px;
 }
 .custom-card .image{
@@ -256,7 +259,7 @@ body{
     padding: 10px;
     /* background: #eaeaea; */
     border: 1px #cecece solid;
-    border-radius: 2px;
+    border-radius: 8px;
 }
 .custom-card .pc-only{
     font-size: 15px;
@@ -274,6 +277,7 @@ body{
     background: linear-gradient(to right, rgba(216,230,255,1), rgba(193,255,194,1));
     margin-top: 15px;
     transition: all 0.3s ease;
+    border-radius: 8px;
 }
 .custom-card .viewMore:hover{
     filter: brightness(0.9) saturate(2);
